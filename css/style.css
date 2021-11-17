@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+body{
+    background-color: black;
+    background-image: url(img/bar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    font-family: "Yeseva One";
+    width: 250px;
+    height: 100px;
+    font-size:18px;
+    color:white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.button1{
+    background:red;
+}
+.button2{
+    background:green;
+}
+.button3{
+    background:blue;
+}
+.button4{
+    background:orangered;
+}
+p{
+    font-family: "Yeseva One";
+    text-align: center;
+    font-size:20px;
+    color:black;
+    background-color: white;
+}
