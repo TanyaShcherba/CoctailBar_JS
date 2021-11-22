@@ -1,9 +1,9 @@
-"use strict";
+`use strict`;
 
 function barHashStorage(key, value) {
     let select = this;
 
-    select.hashStorage = {};
+    select.hashStorage = { };
 
     select.addValue = function(key, value) {
         select.hashStorage[key] = value;
@@ -18,7 +18,7 @@ function barHashStorage(key, value) {
         }
     }
 
-    select.deleteValue=function(key) {
+    select.deleteValue = function(key) {
         if(key in select.hashStorage) {
             delete select.hashStorage[key];
             return true;
@@ -37,8 +37,4 @@ function barHashStorage(key, value) {
     }
 }
 
-/*class CoctailStorage extends barHashStorage{
-    constructor(){
-        super();
-    }
-}*/
+
