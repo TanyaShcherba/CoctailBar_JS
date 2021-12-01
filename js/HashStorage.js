@@ -28,7 +28,7 @@ function barHashStorage(key, value) {
         }
     }
 
-    select.getKeys=function() {
+    select.getKeys = function() {
         let keys = [];
         for(let key in select.hashStorage){
             keys.push(key);
